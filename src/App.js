@@ -1,20 +1,17 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
+import { useState } from 'react';
 import Navbar from './Navbar';
-import TopSection from './TopSection';
-import MiddleSection from './MiddleSection';
+import Topsection from './Topsection';
 
 const App = () =>{
-   
+
     return(
         <>
-        <div >
            <Navbar />
-           <div className="sections--page">
-             <TopSection />
-             <MiddleSection />
-           </div>
-        </div>
+           <Topsection />
         </>
-    );
+        
+    )
 }
 
-export default App
+export default App;
