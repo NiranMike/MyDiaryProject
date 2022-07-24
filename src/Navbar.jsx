@@ -28,7 +28,7 @@ const Navbar = () =>{
                         menue ? <img src={menu} className="w-[30px] pt-2"  alt="Menu" /> : <img src={close} className="w-[30px] pt-2"  alt="Menu" />
                     }
                 </div>
-                <div className={!menue ? 'fixed left-0 top-0 w-[40%] md:w-[20%] h-full   bg-[#000] ease-in-out duration-700 ' : 'fixed left-[-100%]' }>
+                <div className={!menue ? 'fixed left-0 top-0 w-[42%] md:w-[25%] h-full   bg-[#000] ease-in-out duration-700 ' : 'fixed left-[-100%] ease-in-out duration-700' }>
                     <h1 className="w-full text-3xl 
                 font-bold m-4 text-[#00df70]">TakeNote<span className='text-[#cf2e2e]'>.</span></h1>
                     <ul className=" uppercase p-4">
