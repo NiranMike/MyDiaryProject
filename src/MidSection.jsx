@@ -8,7 +8,7 @@ function MidSection() {
          <img src={Laptop} alt="" className='w-[500px] mx-auto my-4'/>
          <div className="flex flex-col justify-center">
           <p className=' text-[#00df70] font-bold'>Platform Mobility</p>
-          <h1 className='md:text-4xl sm:text-3xl text-2xl py-2 font-bold'>Manage Data Analytics Centrally</h1>
+          <h1 className='md:text-4xl sm:text-3xl text-2xl py-2 font-bold'>Use it everywhere</h1>
           <p>Notes stay updated across all devices,automatically,
             and in real time
           </p>

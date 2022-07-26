@@ -1,8 +1,8 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import { useState } from 'react';
-import MidSection from './MidSection';
 import Navbar from './Navbar';
-import Topsection from './Topsection';
+import Topsection from './Topsection.jsx';
+import MidSection from './MidSection';
 import NewsLetter from './NewsLetter';
 
 const App = () =>{
