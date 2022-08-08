@@ -26,14 +26,13 @@ const Navbar = ({openToggle}) =>{
                         menue ? <img src={menu} className="w-[30px] pt-2"  alt="Menu" /> : <img src={close} className="w-[30px] pt-2"  alt="Menu" />
                     }
                 </div>
-                <div className={!menue ? 'md:hidden fixed left-0 top-0 w-[42%] h-full   bg-[#000] ease-in-out duration-700 ' : 'fixed left-[-100%] ease-in-out duration-700' }>
+                <div className={!menue ? 'md:hidden fixed left-0 top-0 w-[56%] max-w-[70%] h-full   bg-[#000] ease-in-out duration-700 ' : 'fixed left-[-100%] ease-in-out duration-700' }>
                     <h1 className="w-full text-3xl 
                 font-bold m-4 text-[#00df70]">TakeNote<span className='text-[#cf2e2e]'>.</span></h1>
                     <ul className=" md:hidden uppercase p-4">
                         <li className=" hover:text-[#000] hover:font-bold p-4  hover:bg-[#00df70] hover:ease-in-out duration-500 rounded-lg hover:cursor-pointer">Home</li>
                         <li className=" hover:text-[#000] hover:font-bold p-4 hover:bg-[#00df70] hover:ease-in-out duration-500 rounded-lg cursor-pointer">About</li>
                         <li onClick={()=> openToggle(true)} className=" hover:text-[#000] p-4 hover:bg-[#00df70] hover:font-bold hover:ease-in-out duration-500 rounded-lg cursor-pointer">Log In</li>
-                        <li className="p-4 hover:text-[#000] hover:bg-[#00df70] hover:font-bold hover:ease-in-out duration-500 rounded-lg cursor-pointer">Add Note</li>
                         <li className=" hover:text-[#000] hover:font-bold p-4  hover:bg-[#00df70] hover:ease-in-out duration-500 rounded-lg cursor-pointer">Contacts</li>
                     </ul>
                 </div>
